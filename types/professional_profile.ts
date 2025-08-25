@@ -1,0 +1,24 @@
+export type ProfessionalProfile = {
+  id: string;
+  user_id?: string | null;
+  professional_type: string;
+  status?: string | null;
+  company_name?: string | null;
+  license_number?: string | null;
+  experience_years?: number | null;
+  specializations?: string[] | null;
+  consultation_fee?: number | null;
+  bio?: string | null;
+  office_address?: string | null;
+  website_url?: string | null;
+  linkedin_profile?: string | null;
+  approved_at?: string | null;
+  approved_by?: string | null;
+  rating?: number | null;
+  total_reviews?: number | null;
+  created_at?: string | null;
+  updated_at?: string | null;
+  registration_notes?: string | null;
+  rejection_reason?: string | null;
+  submission_date?: string | null;
+};
